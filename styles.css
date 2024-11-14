@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Navbar */
+.bg-navy {
+    background-color: #001f3f;
+}
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('heroimage.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+.hero-title {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+}
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.btn-emerald {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.animate-fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f8f9fa;
+}
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.section-text {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.animate-zoom-in {
+    transform: scale(0.8);
+    animation: zoomIn 2s forwards;
+}
+
+/* Features Section */
+.feature-icon {
+    font-size: 2.5rem;
+    color: #2ecc71;
+    margin-bottom: 1rem;
+}
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.feature-text {
+    font-size: 1rem;
+}
+
+/* Shop Section */
+.bg-emerald {
+    background-color: #2ecc71;
+}
+
+/* Footer */
+.footer {
+    background-color: #001f3f;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
